@@ -1,0 +1,265 @@
+<!DOCTYPE html>
+<html lang="zh-MY">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>C SOUP | 线上加盟全案</title>
+    <script src="https://cdn.tailwindcss.com"></script>
+    <link href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.0.0/css/all.min.css" rel="stylesheet">
+    <style>
+        :root { --primary: #ff8600; --dark: #544a48; }
+        body { font-family: 'Helvetica Neue', Arial, sans-serif; background-color: #ffffff; color: #333; margin: 0; }
+        .bg-primary { background-color: var(--primary); }
+        .text-primary { color: var(--primary); }
+        .bg-dark { background-color: var(--dark); }
+        
+        .section-box { padding: 3rem 1.5rem; max-width: 450px; margin: 0 auto; }
+        .card-shadow { box-shadow: 0 10px 25px rgba(0,0,0,0.06); border-radius: 2rem; overflow: hidden; background: white; margin-bottom: 2rem; border: 1px solid #f2f2f2; }
+        
+        /* 扶持标签样式 */
+        .adv-tag { background: white; padding: 1.25rem; border-radius: 1.25rem; display: flex; align-items: flex-start; gap: 0.8rem; border-left: 6px solid var(--primary); box-shadow: 0 4px 10px rgba(0,0,0,0.04); margin-bottom: 1rem; }
+        
+        /* 视频与评价网格 */
+        .grid-2-col { display: grid; grid-template-columns: repeat(2, 1fr); gap: 10px; }
+        .video-container { position: relative; padding-bottom: 177.77%; height: 0; background: #000; border-radius: 1rem; overflow: hidden; }
+        .video-container iframe { position: absolute; top: 0; left: 0; width: 100%; height: 100%; }
+
+        /* ROAS 震撼设计 */
+        .roas-container { background: linear-gradient(145deg, #544a48, #2d2726); border: 3px solid var(--primary); box-shadow: 0 20px 50px rgba(255, 134, 0, 0.3); position: relative; overflow: hidden; }
+        .roas-glow { text-shadow: 0 0 15px rgba(255, 134, 0, 0.8); }
+
+        .btn-pulse { animation: pulse 2s infinite; }
+        @keyframes pulse { 0% { transform: scale(1); } 50% { transform: scale(1.05); } 100% { transform: scale(1); } }
+    </style>
+</head>
+<body>
+
+    <header class="bg-dark text-white pt-16 pb-12 px-6 rounded-b-[3.5rem] text-center">
+        <div class="max-w-md mx-auto text-center">
+            <img src="https://i.ibb.co/N275CCQp/wmremove-transformed-1.png" class="w-full rounded-[2.5rem] mb-8 border-4 border-primary/30 shadow-2xl">
+            <h1 class="text-3xl font-black mb-4 leading-tight italic">加盟 <span class="text-primary text-4xl">C SOUP</span><br>开启线上赚钱事业</h1>
+            <div class="bg-black/30 p-6 rounded-3xl border border-white/10 mt-8 mb-8">
+                <p class="text-gray-400 line-through text-sm">原加盟费 RM 13,XXX</p>
+                <div class="text-white text-xl font-bold mt-1">目前这一批只招10位，只需</div>
+                <div class="text-primary text-5xl font-black italic mt-2 roas-glow">4 位数</div>
+            </div>
+            <a href="https://wa.link/dfh4q2" class="block bg-primary text-white text-xl font-bold py-5 rounded-2xl shadow-xl btn-pulse">轻松加盟国际品牌创业 <i class="fab fa-whatsapp ml-1"></i></a>
+        </div>
+    </header>
+
+    <section class="section-box -mt-10 relative z-10 pt-0">
+        <div class="space-y-4">
+            <div class="bg-white border-2 border-primary rounded-3xl p-6 shadow-xl">
+                <h4 class="text-dark font-black text-lg mb-4 text-center">💰 跟着方式成交一单</h4>
+                <div class="flex items-center justify-between px-2">
+                    <div class="text-center flex-1">
+                        <div class="text-primary text-3xl font-black italic">1单</div>
+                        <p class="text-gray-500 text-[10px] mt-1 font-bold">C SOUP 利润</p>
+                    </div>
+                    <div class="text-2xl font-black text-gray-300 mx-2">≈</div>
+                    <div class="text-center flex-1">
+                        <div class="text-dark text-xl font-black italic">1星期薪水</div>
+                        <p class="text-gray-500 text-[10px] mt-1 font-bold">一般打工族</p>
+                    </div>
+                </div>
+            </div>
+            
+            <div class="roas-container rounded-[2.5rem] p-6 text-center text-white">
+                <p class="text-gray-400 text-[10px] font-bold uppercase mb-4 tracking-widest">加盟商平均回报率记录</p>
+                <div class="grid grid-cols-2 gap-4 items-center">
+                    <div class="bg-white/5 border border-white/10 rounded-2xl p-3">
+                        <p class="text-gray-400 text-[9px] mb-1">单月投入广告费</p>
+                        <div class="text-lg font-black">RM 1,000</div>
+                    </div>
+                    <div class="bg-primary/20 border border-primary rounded-2xl p-3">
+                        <p class="text-primary text-[9px] mb-1">单月销售额</p>
+                        <div class="text-xl font-black italic roas-glow text-primary">RM 10,050</div>
+                    </div>
+                </div>
+                <p class="text-gray-500 text-[9px] mt-4 italic font-medium leading-relaxed">此数据为现有公司和加盟商真实销售记录</p>
+            </div>
+        </div>
+    </section>
+
+    <section class="section-box pt-0">
+        <div class="bg-white border-2 border-gray-100 rounded-[2.5rem] p-8 shadow-xl relative overflow-hidden">
+            <div class="text-center">
+                <h3 class="text-xl font-black text-dark mb-2 italic uppercase tracking-wide">高频刚需 · 极易成交</h3>
+                <p class="text-gray-500 text-xs mb-8 italic">因为喜汤是食物，所以客户回购率极高</p>
+                
+                <div class="flex flex-col items-center justify-center">
+                    <div class="relative w-40 h-40 flex items-center justify-center">
+                        <svg class="w-full h-full transform -rotate-90">
+                            <circle cx="80" cy="80" r="70" stroke="currentColor" stroke-width="12" fill="transparent" class="text-gray-100" />
+                            <circle cx="80" cy="80" r="70" stroke="currentColor" stroke-width="12" fill="transparent" stroke-dasharray="440" stroke-dashoffset="75" class="text-primary" />
+                        </svg>
+                        <div class="absolute inset-0 flex flex-col items-center justify-center">
+                            <span class="text-4xl font-black text-dark italic">83%</span>
+                            <span class="text-[10px] font-bold text-primary tracking-widest uppercase">Repurchase</span>
+                        </div>
+                    </div>
+                    <p class="text-dark font-black mt-6 text-lg italic">复购率高达 <span class="text-primary text-2xl">83%</span></p>
+                    <div class="mt-4 bg-primary/5 p-4 rounded-2xl border border-primary/10">
+                        <p class="text-gray-600 text-xs leading-relaxed font-medium">
+                            <i class="fas fa-quote-left text-primary/30 mr-1"></i>
+                            不需要担心没生意，客户喝完一定再回来！你的每一个新客户，未来都会变成你的“提款机”。
+                        </p>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <section class="section-box pt-0">
+        <div class="text-center mb-6">
+            <h2 class="text-2xl font-black text-dark italic leading-tight">强大的后端物流支撑</h2>
+            <p class="text-primary font-bold italic mt-1">给加盟商最大的信心保证！</p>
+        </div>
+        <div class="grid grid-cols-1 gap-4">
+            <div class="relative group">
+                <img src="https://i.ibb.co/S7wRdjQm/Whats-App-Image-2026-01-14-at-14-45-33.jpg" class="w-full rounded-3xl shadow-lg border-2 border-white">
+                <div class="absolute bottom-4 left-4 bg-primary/90 text-white px-4 py-1 rounded-full text-xs font-black shadow-lg">半天出货量实拍</div>
+            </div>
+            <div class="relative group">
+                <img src="https://i.ibb.co/vxnVcbQL/Whats-App-Image-2026-01-14-at-14-45-32.jpg" class="w-full rounded-3xl shadow-lg border-2 border-white">
+                <div class="absolute bottom-4 right-4 bg-dark/90 text-white px-4 py-1 rounded-full text-xs font-black shadow-lg">火热爆单中</div>
+            </div>
+        </div>
+        <div class="mt-6 bg-gray-50 border border-gray-100 p-5 rounded-2xl text-center">
+            <p class="text-dark font-black">强大的物流系统，你只管接单，<br>发货交给我们！</p>
+        </div>
+    </section>
+
+    <section class="section-box pt-0">
+        <div class="bg-dark rounded-[2.5rem] p-6 shadow-xl border border-white/10">
+            <h4 class="text-primary font-black text-lg mb-6 text-center italic">✨ 极简赚钱模式：COPY & PASTE</h4>
+            <div class="space-y-4">
+                <div class="flex items-center gap-4 bg-white/5 p-3 rounded-xl border border-white/5">
+                    <div class="w-10 h-10 bg-primary rounded-lg flex items-center justify-center text-white text-xl flex-shrink-0">
+                        <i class="fas fa-file-invoice-dollar"></i>
+                    </div>
+                    <div>
+                        <p class="text-white text-sm font-bold">每日真实成交话术</p>
+                        <p class="text-gray-400 text-[10px]">我们将实战收钱的过程发给你</p>
+                    </div>
+                </div>
+                <div class="flex justify-center text-primary py-1"><i class="fas fa-chevron-down animate-bounce"></i></div>
+                <div class="flex items-center gap-4 bg-primary rounded-xl p-4 shadow-[0_0_20px_rgba(255,134,0,0.3)]">
+                    <div class="w-10 h-10 bg-white rounded-lg flex items-center justify-center text-primary text-xl flex-shrink-0">
+                        <i class="fas fa-copy"></i>
+                    </div>
+                    <div>
+                        <p class="text-white text-sm font-black text-left">你只需 Copy & Paste</p>
+                        <p class="text-white/80 text-[10px] text-left">简单复制，剩下的就是收钱！</p>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <section class="section-box bg-gray-50 rounded-[3.5rem] my-10 border border-gray-100">
+        <h2 class="text-2xl font-black text-center mb-8 text-dark italic leading-tight">全马各地 · 皆可加盟</h2>
+        <div class="grid grid-cols-3 gap-2">
+            <div class="bg-white py-2 px-1 rounded-xl text-[10px] font-bold text-gray-500 border border-gray-200 text-center shadow-sm">柔佛 Johor</div>
+            <div class="bg-white py-2 px-1 rounded-xl text-[10px] font-bold text-gray-500 border border-gray-200 text-center shadow-sm">吉打 Kedah</div>
+            <div class="bg-white py-2 px-1 rounded-xl text-[10px] font-bold text-gray-500 border border-gray-200 text-center shadow-sm">吉兰丹 Kelantan</div>
+            <div class="bg-white py-2 px-1 rounded-xl text-[10px] font-bold text-gray-500 border border-gray-200 text-center shadow-sm">马六甲 Melaka</div>
+            <div class="bg-white py-2 px-1 rounded-xl text-[10px] font-bold text-gray-500 border border-gray-200 text-center shadow-sm">森美兰 N.S.</div>
+            <div class="bg-white py-2 px-1 rounded-xl text-[10px] font-bold text-gray-500 border border-gray-200 text-center shadow-sm">彭亨 Pahang</div>
+            <div class="bg-white py-2 px-1 rounded-xl text-[10px] font-bold text-gray-500 border border-gray-200 text-center shadow-sm">霹雳 Perak</div>
+            <div class="bg-white py-2 px-1 rounded-xl text-[10px] font-bold text-gray-500 border border-gray-200 text-center shadow-sm">玻璃市 Perlis</div>
+            <div class="bg-white py-2 px-1 rounded-xl text-[10px] font-bold text-gray-500 border border-gray-200 text-center shadow-sm">槟城 Penang</div>
+            <div class="bg-white py-2 px-1 rounded-xl text-[10px] font-bold text-gray-500 border border-gray-200 text-center shadow-sm">雪兰莪 Selangor</div>
+            <div class="bg-white py-2 px-1 rounded-xl text-[10px] font-bold text-gray-500 border border-gray-200 text-center shadow-sm">登嘉楼 Terengganu</div>
+            <div class="bg-white py-2 px-1 rounded-xl text-[10px] font-bold text-gray-500 border border-gray-200 text-center shadow-sm">沙巴 Sabah</div>
+            <div class="bg-white py-2 px-1 rounded-xl text-[10px] font-bold text-gray-500 border border-gray-200 text-center shadow-sm">砂拉越 Sarawak</div>
+            <div class="bg-primary text-white py-2 px-1 rounded-xl text-[9px] font-black text-center col-span-2 italic flex items-center justify-center">KL / Putrajaya / Labuan</div>
+        </div>
+        <p class="text-center text-gray-400 text-[10px] mt-6 italic font-bold">全马订单都是你的市场！</p>
+    </section>
+
+    <section class="section-box text-left pt-0">
+        <div class="bg-dark p-8 rounded-[3rem] text-white shadow-2xl mb-12 text-center">
+            <h2 class="text-2xl font-black mb-2 leading-tight">100位精准客源直接分给加盟商！</h2>
+            <p class="text-primary text-lg font-black mb-6 italic text-center">不需要找自己的朋友亲戚</p>
+            <div class="bg-white/10 p-4 rounded-2xl border border-white/20 mb-6 text-center">
+                <span class="text-gray-400 text-[10px] block mb-1 uppercase font-bold tracking-widest text-center">加盟商广告支出</span>
+                <div class="text-primary text-3xl font-black italic text-center">RM 0.00</div>
+            </div>
+            <div class="bg-primary p-4 rounded-2xl text-white font-black text-lg shadow-lg text-center">直接接收 100+ 准客户咨询</div>
+        </div>
+
+        <h2 class="text-2xl font-black text-center mb-10 text-primary italic">8大“保姆级”扶持</h2>
+        <div class="space-y-3">
+            <div class="adv-tag"><i class="fas fa-users text-primary mt-1"></i><div><h4 class="font-bold text-dark">直接送你100个客人</h4><p class="text-gray-500 text-xs text-left">公司出钱打广告引流，精准客源直接分给你的WhatsApp谈成交！</p></div></div>
+            <div class="adv-tag"><i class="fas fa-truck-loading text-primary mt-1"></i><div><h4 class="font-bold text-dark">不用自己包货发货</h4><p class="text-gray-500 text-xs text-left">总部全包仓库和快递，你只需要接单赚钱，完全不需要碰货！</p></div></div>
+            <div class="adv-tag"><i class="fas fa-camera text-primary mt-1"></i><div><h4 class="font-bold text-dark">送RM888 专业素材包</h4><p class="text-gray-500 text-xs text-left">不用自己拍照，高清图、网红视频全部准备好给你，发圈就有单。</p></div></div>
+            <div class="adv-tag"><i class="fas fa-pen-nib text-primary mt-1"></i><div><h4 class="font-bold text-dark">149 篇爆单文案库</h4><p class="text-gray-500 text-xs text-left">不知道写什么？直接从库里“复制+粘贴”就可以开始成交生意。</p></div></div>
+            <div class="adv-tag"><i class="fas fa-graduation-cap text-primary mt-1"></i><div><h4 class="font-bold text-dark">老板手把手教学</h4><p class="text-gray-500 text-xs text-left">提供实操训练课，教你从零开始引流成交，确保你快速回本。</p></div></div>
+            <div class="adv-tag"><i class="fas fa-coins text-primary mt-1"></i><div><h4 class="font-bold text-dark">4位数极低加盟门槛</h4><p class="text-gray-500 text-xs text-left">几千块就能开启一份全职或兼职事业，没有任何隐藏收费。</p></div></div>
+            <div class="adv-tag"><i class="fas fa-ad text-primary mt-1"></i><div><h4 class="font-bold text-dark">额外送RM500广告费</h4><p class="text-gray-500 text-xs text-left">首月公司额外补贴广告费，帮你加速店铺流量，起步就领先。</p></div></div>
+            <div class="adv-tag"><i class="fas fa-gift text-primary mt-1"></i><div><h4 class="font-bold text-dark">每月达标现金奖金</h4><p class="text-gray-500 text-xs text-left">除了卖汤的利润，只要业绩达标，公司每个月额外发现金奖红包！</p></div></div>
+        </div>
+    </section>
+
+    <section class="section-box text-left">
+        <h2 class="text-2xl font-black text-center mb-10 text-dark italic leading-tight">—— 核心卖点 · 爆单保证 ——</h2>
+        <div class="card-shadow">
+            <img src="https://i.ibb.co/mVFNjJjW/DSC9809-3.jpg" class="w-full">
+            <div class="p-6">
+                <p class="text-primary font-bold mb-1 italic">🔸 专业团队研发</p>
+                <h4 class="font-black text-xl text-dark mb-3">48位中医师 & 营养师团队</h4>
+                <p class="text-gray-600 text-sm leading-relaxed">由48位中医师&营养师组成的团队，结合出来最适合新加坡人喝的汤包。经过<b>176次测试</b>，用90多种高级材料研究出 <b>#7种口味</b> 和 <b>#7种功效</b>。</p>
+            </div>
+        </div>
+        <div class="card-shadow">
+            <img src="https://i.ibb.co/zT7yWNkT/wmremove-transformed.png" class="w-full">
+            <div class="p-6">
+                <p class="text-primary font-bold mb-1 italic">🔸 匠心研发背景</p>
+                <h4 class="font-black text-xl text-dark mb-3">研究了 3 年的汤包</h4>
+                <p class="text-gray-600 text-sm leading-relaxed">老板坚持寻找最好质量材料。品质管控💯，材料全部<b>100%新鲜</b>，不含防腐剂 / 激素 / 化学物质。#百分百纯天然材料 #真空包装</p>
+            </div>
+        </div>
+        <div class="card-shadow">
+            <img src="https://i.ibb.co/xqhHSrJp/wmremove-transformed-2.png" class="w-full">
+            <div class="p-6">
+                <p class="text-primary font-bold mb-1 italic">🔸 极致便利体验</p>
+                <h4 class="font-black text-xl text-dark mb-3">小白也能轻松上手</h4>
+                <p class="text-gray-600 text-sm leading-relaxed">刚刚好1人份，无需准备炖盅！提供专门煲汤的<b>电子炖盅</b>，小白更方便煲汤。每种汤包仅 <b>83 卡路里</b>，补而不胖，还配有一包有机盐。</p>
+            </div>
+        </div>
+    </section>
+
+    <section class="section-box text-center">
+        <h2 class="text-2xl font-black mb-8 text-dark italic">超过100位网红亲测 · 强力推荐</h2>
+        <div class="grid-2-col mb-12">
+            <div class="video-container shadow-lg"><iframe src="https://www.youtube.com/embed/Vx2lH8FAezM" frameborder="0"></iframe></div>
+            <div class="video-container shadow-lg"><iframe src="https://www.youtube.com/embed/QkEXEwPd3Q8" frameborder="0"></iframe></div>
+            <div class="video-container shadow-lg"><iframe src="https://www.youtube.com/embed/bSyfhkdYYgQ" frameborder="0"></iframe></div>
+            <div class="video-container shadow-lg"><iframe src="https://www.youtube.com/embed/Ntc8LTFGNEE" frameborder="0"></iframe></div>
+        </div>
+        
+        <h2 class="text-2xl font-black mb-8 text-primary italic leading-tight"> 真实好评 · 有图有真相 </h2>
+        <div class="grid-2-col">
+            <img src="https://i.ibb.co/zh44JCrv/photo-6174636214309731909-y-1.jpg" class="w-full rounded-xl shadow-sm">
+            <img src="https://i.ibb.co/W4CNqRrX/photo-6174636214309731919-y.jpg" class="w-full rounded-xl shadow-sm">
+            <img src="https://i.ibb.co/XZcs9RXX/photo-6174636214309731921-y.jpg" class="w-full rounded-xl shadow-sm">
+            <img src="https://i.ibb.co/hRztMmMw/photo-6220006805715666493-y-5.jpg" class="w-full rounded-xl shadow-sm">
+            <img src="https://i.ibb.co/XZ04hyz0/photo-6220006805715666499-y-4.jpg" class="w-full rounded-xl shadow-sm">
+            <img src="https://i.ibb.co/V0kfmPpD/photo-6220006805715666496-y-4.jpg" class="w-full rounded-xl shadow-sm">
+            <img src="https://i.ibb.co/qMpGTKnf/photo-6220006805715666504-y-1.jpg" class="w-full rounded-xl shadow-sm">
+            <img src="https://i.ibb.co/4w2qpz92/photo-6220006805715666500-y.jpg" class="w-full rounded-xl shadow-sm">
+        </div>
+    </section>
+
+    <section class="bg-dark section-box rounded-t-[4rem] text-center text-white">
+        <div class="bg-red-600 inline-block px-4 py-1 rounded-full text-[10px] font-bold mb-8 animate-pulse text-center">⚠️ 仅剩最后 6 个加盟名额</div>
+        <h2 class="text-3xl font-black mb-10 leading-tight">申请加盟 <span class="text-primary italic">C SOUP</span><br>锁定这一批名额</h2>
+        <a href="https://wa.link/dfh4q2" class="block bg-primary text-white text-2xl font-black py-6 rounded-2xl shadow-2xl btn-pulse">立即联系加盟 <i class="fab fa-whatsapp"></i></a>
+        <p class="mt-8 text-gray-400 text-[10px] italic">已有 24 位加盟商成功开启事业</p>
+    </section>
+
+    <a href="https://wa.link/dfh4q2" class="fixed bottom-6 right-6 bg-[#25D366] text-white w-16 h-16 rounded-full flex items-center justify-center shadow-2xl z-50 text-4xl"><i class="fab fa-whatsapp"></i></a>
+
+</body>
+</html>
